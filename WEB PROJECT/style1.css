@@ -1,0 +1,386 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #F7E7DC;
+}
+header{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo p{
+   font-weight: 800;
+   font-size: 18px;
+}
+#navbar {
+  position: sticky;
+  top: 0; 
+  z-index: 1000; /* Ensures the navbar stays above other content */
+}
+
+nav{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 18px;
+    background-color:white;
+}
+nav a{
+    text-decoration: none;
+}
+ #home{
+ 
+    width: 100%;
+    height: 529px;
+    display: flex;
+ }
+ #left_part{
+   
+    height: 529px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #sub_left{
+ 
+    width: 75%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 0px;
+ }
+
+ #sub_left i{
+   font-size: 20px;
+ }
+
+ #sub_left h2{
+    font-size: 40px;
+ }
+
+  
+ #sub_left p{
+    font-weight: 900;
+    font-size: 25px;
+ }
+
+ #sub_left button{
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+ }
+
+ #sub_left span{
+   color: darkmagenta;
+ }
+ #sub_left #logo_box{
+   
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ #sub_left #logo_box i{
+   font-size: 30px;
+ }
+
+ #right_part{
+  
+    height: 529px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 50px 50px 200px;
+ }
+ #right_part img{
+    width: 70%;
+    height: 80%;
+    border-radius: 24%;
+    
+ }
+  
+ #2nd_part{
+   
+   height: 100%;
+   width: 100%;
+ }
+ 
+ #about_me{
+ 
+   height: 600px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ }
+ #head{
+ 
+   width: 100%;
+   height: 90px;
+   font-size: 50px;
+   font-weight: 500;
+   background-color: white;
+   
+ }
+ #head span{
+   color: blueviolet;
+ }
+ #head i{
+   font-size: 50px;
+ }
+
+ #container{
+   background-color: #FFF8F3;
+   height: 510px;
+   width: 100%;
+   display: flex;
+  
+ }
+ #about_left{
+  
+   width: 50%;
+   height: 510px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+ #about_left img{
+   height: 350px;
+   width: 300px;
+   border-radius: 20%;
+
+ }
+ #about_right{
+  
+   width: 50%;
+   height: 510px;
+   font-size: 18px;
+   font-family: cursive;
+   padding-left: 20px;
+   padding-top: 100px;
+ }
+
+ #about_right p{
+  font-family: cursive;
+ }
+ #about_right span{
+  font-family: cursive;
+  color: blueviolet;
+ }
+ #about_right b{
+  font-size: 28px;
+  font-family: cursive;
+ }
+ #about_right button{
+  
+  width: 120px;
+  height: 40px;
+  border-radius: 10%;
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+ }
+
+ #skills{
+  border: 1px solid black;
+  height: 599px;
+  width: 100%;
+  background-color: blueviolet;
+  
+ }
+ #skillhead{
+  background-color: blueviolet;
+  height: 100px;
+  width: 100%;
+  color:white;
+  font-size: 37px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ #skillhead span{
+  color: orange;
+ }
+ #skillhead i{
+  font-size: 65px;
+ }
+ #skillbox{
+  width: 80%;
+  height: 488px;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 130px; 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 1%;
+ }
+ #box{
+  width: 180px;
+  height: 140px;
+  background-color: #01204E;
+  color: white;
+  border-radius: 10%;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ #contact{
+  height: 100px;
+  width: 100%;
+  font-size: 35px;
+  font-weight: 750;
+  color: black  ;
+  padding-top: 40px;
+  background-color: aliceblue;
+ }
+ #contact span{
+  color: blueviolet;
+ }
+ #cont_container{
+  background-color: aliceblue;
+  height: 500px;
+  width: 100%;
+  padding-left: 200px;
+  padding-top: 10px;
+ }
+ #contactpg{
+  display: flex;
+  height: 420px;
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 10px;
+  
+ }
+ #left{
+  width: 50%;
+ }
+ #left img{
+  width: 400px;
+  height: 400px;
+ }
+ #right{
+  width: 50%;
+ }
+ #right input{
+  font-size: 20px;
+  width: 400px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  font-weight: 600;
+  border-radius: 5px; 
+  padding-left: 10px;
+ }
+ #message{
+  height: 150px;
+  padding-bottom: 120px;
+ }
+#right button{
+  height: 50px;
+  width: 110px;
+  background-color:blueviolet;
+  color: white;
+  border-radius: 5%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+ footer{
+  height: 220px;
+  display: flex;
+  background-color: #430A5D;
+ }
+ #leftfoot{
+  height:200px ;
+  width: 34%;
+  padding-top: 25px;
+  padding-left: 150px;
+ }
+ #leftfoot p{
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+ }
+ #leftfoot span{
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+ }
+ #centerfoot{
+  height:200px ;
+  width: 33%;
+  padding-left: 120px;
+  padding-top: 25px;
+ }
+ #centerfoot p{
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+ }
+ #centerfoot a{
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration-line: none;
+ }
+ #rightfoot{
+  height:200px ;
+  width: 34%;
+  padding-top: 25px;
+  padding-left: 40px;
+ }
+ #rightfoot p{
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+ }
+ #rightfoot span{
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+ }
+ #logo_box2{
+  color: white;
+  font-size: 40px;
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
